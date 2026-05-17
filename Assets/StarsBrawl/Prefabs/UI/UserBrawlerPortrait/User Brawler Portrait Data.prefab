@@ -684,6 +684,7 @@ GameObject:
   - component: {fileID: 2713209506916828571}
   - component: {fileID: 665128479347749446}
   - component: {fileID: 7651931622468521668}
+  - component: {fileID: 7194502061242323449}
   m_Layer: 5
   m_Name: User Brawler Portrait Data
   m_TagString: Untagged
@@ -698,7 +699,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4318336147892069072}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -777,6 +778,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7194502061242323449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318336147892069072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32bb71adbf8fbbe47b1d74b12cc74c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MatchParticipantItemUI
+  nicknameText: {fileID: 2312426996999173501}
+  brawlerPortraitImage: {fileID: 3447209698485917856}
+  trophiesText: {fileID: 5614696266046859881}
+  levelText: {fileID: 1012332812741808357}
 --- !u!1 &4391423834485875701
 GameObject:
   m_ObjectHideFlags: 0
